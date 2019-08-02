@@ -9,7 +9,6 @@ fn main() {
         .file("src/wirehair/WirehairTools.cpp")
         .include("src/wirehair")
         .flag("-msse4.1")
-        .out_dir("wirehair")
         .shared_flag(true)
         .compile("wirehair");
 }
