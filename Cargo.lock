@@ -81,7 +81,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "rtp"
+name = "wirehair-wrapper"
 version = "0.1.0"
 dependencies = [
  "cc 1.0.38 (registry+https://github.com/rust-lang/crates.io-index)",
