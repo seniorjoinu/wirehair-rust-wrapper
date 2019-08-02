@@ -7,7 +7,7 @@ build = "build.rs"
 description = "Rust wrapper for https://github.com/catid/wirehair"
 repository = "https://github.com/seniorjoinu/wirehair-rust-wrapper"
 keywords = ["fec", "fountain-codes", "raptorq"]
-categories = ["API bindings", "Encoding"]
+categories = ["api-bindings", "encoding"]
 license = "MIT"
 
 [build-dependencies]
