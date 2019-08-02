@@ -1,4 +1,4 @@
-Wirehair wrapper for Rust - O(N) Fountain Code for Large Data
+Rust wrapper for Wirehair - O(N) Fountain Code for Large Data
 
 ### API
 ```rust
