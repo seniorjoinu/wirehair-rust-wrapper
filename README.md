@@ -1,4 +1,5 @@
 Rust wrapper for Wirehair - O(N) Fountain Code for Large Data
+Wirehair is a FEC library done by https://github.com/catid
 
 ### API
 ```rust
