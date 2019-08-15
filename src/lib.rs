@@ -161,7 +161,7 @@ pub mod wirehair {
 
     impl WirehairEncoder {
         pub fn new(
-            message: &mut [u8],
+            message: &[u8],
             message_size_bytes: u64,
             block_size_bytes: u32,
         ) -> WirehairEncoder {
@@ -266,7 +266,7 @@ mod tests {
             message[i] = i as u8
         }
 
-        let encoder = WirehairEncoder::new(&mut message, 500, 50);
+        let encoder = WirehairEncoder::new(&message, 500, 50);
         let decoder = WirehairDecoder::new(500, 50);
 
         let mut block_id = 0;

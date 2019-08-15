@@ -2,3 +2,4 @@
 **/*.rs.bk
 /wirehair
 .idea
+Cargo.lock
