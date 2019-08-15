@@ -72,7 +72,7 @@ pub mod wirehair {
         fn wirehair_free(codec: *const c_void) -> c_void;
     }
 
-    #[derive(Debug)]
+    #[derive(Debug, PartialEq)]
     pub enum WirehairError {
         InvalidInput,
         BadDenseSeed,
@@ -110,7 +110,7 @@ pub mod wirehair {
         }
     }
 
-    #[derive(Debug)]
+    #[derive(Debug, PartialEq)]
     pub enum WirehairResult {
         Success,
         NeedMore,
